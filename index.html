@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profil Mahasiswa - Web Responsive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="flower-background">
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    <div class="flower sakura">🌸</div>
+    
+
+    <div class="flower cherry">🌺</div>
+    <div class="flower cherry">🌺</div>
+    <div class="flower cherry">🌺</div>
+    <div class="flower cherry">🌺</div>
+    <div class="flower cherry">🌺</div>
+    <div class="flower cherry">🌺</div>
+    <div class="flower cherry">🌺</div>
+    <div class="flower cherry">🌺</div>
+    
+    <div class="flower tulip">🌷</div>
+    <div class="flower tulip">🌷</div>
+    <div class="flower tulip">🌷</div>
+    <div class="flower tulip">🌷</div>
+    <div class="flower tulip">🌷</div>
+    <div class="flower tulip">🌷</div>
+    
+    <div class="flower rose">🌹</div>
+    <div class="flower rose">🌹</div>
+    <div class="flower rose">🌹</div>
+    <div class="flower rose">🌹</div>
+    <div class="flower rose">🌹</div>
+    
+    <div class="flower hibiscus">🌺</div>
+    <div class="flower hibiscus">🌺</div>
+    <div class="flower hibiscus">🌺</div>
+    <div class="flower hibiscus">🌺</div>
+    
+    <div class="flower sunflower">🌻</div>
+    <div class="flower sunflower">🌻</div>
+    <div class="flower sunflower">🌻</div>
+    
+    <div class="flower daisy">🌼</div>
+    <div class="flower daisy">🌼</div>
+    <div class="flower daisy">🌼</div>
+    <div class="flower daisy">🌼</div>
+    
+    <div class="flower blossom">💐</div>
+    <div class="flower blossom">💐</div>
+    <div class="flower blossom">💐</div>
+    
+    <div class="flower sparkle">✨</div>
+    <div class="flower sparkle">✨</div>
+    <div class="flower sparkle">✨</div>
+    <div class="flower sparkle">✨</div>
+    <div class="flower sparkle">✨</div>
+</div>
+
+<div class="page-container">
+    <div class="container my-4">
+        <header class="py-3 mb-3 shadow-sm">
+            <div class="header-content">
+                <div class="header-left">
+
+                    
+                    <div class="profile-photo-wrapper">
+                        <img src="foto-profil.jpg" alt="Syifa Alesia Salsabila" class="profile-photo" 
+                             onerror="this.onerror=null; this.src='https://via.placeholder.com/80/cdb4db/FFFFFF?text=SA'" />
+                        <div class="profile-photo-ring"></div>
+                    </div>
+                    
+                    <div class="header-text">
+                        <i class="fa-solid fa-user-circle fa-2x me-2"></i> 
+                        <h4 class="mb-0">Profil Mahasiswa</h4>
+                        <p class="student-name mb-0">Syifa Alesia Salsabila</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="row gx-3">
+            
+            <input type="radio" name="tabs" id="tab-biodata" class="tab-radio" checked />
+            <input type="radio" name="tabs" id="tab-pendidikan" class="tab-radio" />
+            <input type="radio" name="tabs" id="tab-pengalaman" class="tab-radio" />
+            <input type="radio" name="tabs" id="tab-keahlian" class="tab-radio" />
+            <input type="radio" name="tabs" id="tab-publikasi" class="tab-radio" />
+
+            <nav id="main-nav" class="col-12 col-lg-3 order-lg-1 mb-3">
+                <ul class="nav justify-content-start flex-column rounded shadow-sm p-2"> 
+                    <li class="nav-item">
+                        <label for="tab-biodata" class="nav-link">Biodata</label>
+                    </li>
+                    <li class="nav-item">
+                        <label for="tab-pendidikan" class="nav-link">Pendidikan</label>
+                    </li>
+                    <li class="nav-item">
+                        <label for="tab-pengalaman" class="nav-link">Pengalaman</label>
+                    </li>
+                    <li class="nav-item">
+                        <label for="tab-keahlian" class="nav-link">Keahlian</label>
+                    </li>
+                    <li class="nav-item">
+                        <label for="tab-publikasi" class="nav-link">Publikasi</label>
+                    </li>
+                </ul>
+            </nav>
+
+            <section id="content-area" class="col-12 col-lg-6 order-lg-2 bg-white p-4 rounded shadow-sm mb-3">
+               
+                <div class="tab-content-panel" id="content-biodata">
+                    <h2>Biodata</h2>
+                    <p><strong>NIM:</strong> 2024081034</p>
+                    <p><strong>Nama:</strong> Syifa Alesia Salsabila</p>
+                    <p><strong>Agama:</strong> Islam</p>
+                    <p><strong>Tanggal Lahir:</strong> 4 Maret 2006</p>
+                    <p><strong>Tempat Lahir:</strong> Solo</p>
+                </div>
+
+                
+                <div class="tab-content-panel" id="content-pendidikan">
+                    <h2>Pendidikan</h2>
+                    <ul>
+                        <li>SDN Pondok Jagung 2</li>
+                        <li>SMP 16 Tangerang Selatan</li>
+                        <li>SMA Negeri 11 Tangerang Selatan</li>
+                        <li>Sistem Informasi, Universitas Pembangunan Jaya</li>
+                    </ul>
+                </div>
+
+                
+                <div class="tab-content-panel" id="content-pengalaman">
+                    <h2>Pengalaman</h2>
+                    <ul>
+                        <li>Menjadi Moderator & MC di berbagai kegiatan kampus atau diluar kampus</li>
+                        <li>Berperan sebagai anggota Divisi Humas & Sponsor di Program Orientasi Mahasiswa di UPJ yaitu PRIMA</li>
+                        <li>Sebagai anggota Divisi Acara di kegiatan Concordia</li>
+                    </ul>
+                </div>
+
+                
+                <div class="tab-content-panel" id="content-keahlian">
+                    <h2>Keahlian</h2>
+                    <ul>
+                        <li>Memiliki ketertarikan kuat pada komunikasi strategis dan pengelolaan relasi eksternal</li>
+                        <li>Penguasaan public speaking</li>
+                        <li>Modern Dance</li>
+                    </ul>
+                </div>
+
+                
+                <div class="tab-content-panel" id="content-publikasi">
+                    <h2>Publikasi</h2>
+                    <ul>
+                        <li>belum ada</li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside class="col-12 col-lg-3 order-lg-3 p-4 rounded shadow-sm mb-3">
+                <h3 class="mb-2">Hobi</h3>
+                <ul class="list-unstyled">
+                    <li>Dance</li>
+                    <li>Traveling</li>
+                    <li>Pemrograman</li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer class="py-3 mt-4 shadow-sm">
+            <div class="footer-content">
+                <div class="footer-left">
+                    
+                    <div class="social-icons-grid">
+                        <a href="https://twitter.com/blabla" target="_blank" class="social-icon twitter" aria-label="Twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://facebook.com/blabla" target="_blank" class="social-icon facebook" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/syalesiaa" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://tiktok.com/@syalesiaa" target="_blank" class="social-icon tiktok" aria-label="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-center">
+                     <p class="copyright-text">
+                         <span class="copyright-line1">© Copyright 2025.</span>
+                         <span class="copyright-line2">All Rights Reserved</span>
+                     </p>
+                </div>
+                <div class="footer-right">
+                    <p class="mb-0">alesyipaw</p>
+                    <p class="mb-0 slogan-info">the prettiest girl I've ever seen</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
